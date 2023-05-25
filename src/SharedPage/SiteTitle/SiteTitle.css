@@ -1,0 +1,7 @@
+.siteTitle{
+    background-image: linear-gradient(to right, orange, tomato);
+    color: white;
+    box-shadow: 15px 15px 25px black;
+    width: 97%;
+    margin: 10px auto;
+}

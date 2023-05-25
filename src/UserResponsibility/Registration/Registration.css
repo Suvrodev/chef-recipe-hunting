@@ -1,0 +1,31 @@
+.successResultBox{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 10px 5px;
+}
+.errorResultBox{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 10px 5px;
+
+}
+
+.register_title{
+    background-image: linear-gradient(to right, green,orange);
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 25px;
+}

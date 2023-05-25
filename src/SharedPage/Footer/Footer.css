@@ -1,0 +1,32 @@
+.Footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 15px;
+    gap: 5px;
+}
+.findSection{
+    /* background-color: green; */
+    text-align: center;
+}
+.ICON{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    font-size: 25px;
+    
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Footer{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        row-gap: 15px;
+    }
+}

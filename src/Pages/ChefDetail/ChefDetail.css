@@ -1,0 +1,74 @@
+.chefBanner{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: orange;
+    display: flex;
+}
+.chefInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    /* background-color: goldenrod; */
+    border-radius: 30%;
+}
+.chefInfo_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chefInfoDesc{
+    margin-top: 20px;
+    background-color: rgb(133, 41, 82);
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 15px 15px 25px black;
+    padding: 10px;
+}
+.chefInfoDesc h4{
+    color: whitesmoke;
+}
+.chefPic{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chefImage{
+    width: 80%;
+    border-radius: 30%;
+}
+.name{
+    color: rgb(104, 222, 104);
+    text-shadow: 2px 2px 5px red;
+}
+.name_{
+    color: greenyellow;
+    font-weight: 700;
+    font-style: italic;
+}
+.recipeListTitle{
+    background-color: rgb(235, 149, 69);
+    text-align: center;
+    margin: 20px 50px;
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 576px) {
+    .chefBanner{
+        flex-direction: column-reverse;
+    }
+    .chefInfo{
+        width: 100%;
+    }
+    .chefPic{
+        margin-top: 20px;
+        width: 100%;
+    }
+}

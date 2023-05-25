@@ -1,0 +1,29 @@
+.chefContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: cornflowerblue;
+    gap: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.availableShapeTitle{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    margin-top: 20px;
+    color: pink;
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    border-radius: 7px;
+    margin: 10px auto;
+    box-shadow: 15px 15px 25px green;
+}
+
+@media only screen and (max-width: 576px) {
+    .chefContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .availableShapeTitle{
+        width: 90%;
+        margin-top: 20px;
+    }
+}

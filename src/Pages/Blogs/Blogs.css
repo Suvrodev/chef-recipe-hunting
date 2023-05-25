@@ -1,0 +1,83 @@
+
+
+.blogs{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(190, 72, 26);
+    overflow: hidden;
+    border-radius: 7px;
+    color: white;
+}
+.blogTitle{
+    background-color: cornflowerblue;
+    color: white;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 7px;
+    padding: 5px;
+    border-top-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.Answer{
+    margin: 10px;
+}
+.Answer table{
+    border: 2px solid black;
+    padding: 5px;
+}
+th,td{
+    border: 1px solid black;
+}
+
+.Answer table td th{
+    border: 1px solid black;
+}
+.qsn{
+    font-weight: 700;
+    padding: 10px;
+}
+.ans{
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+tr:hover{
+    background-color: purple;
+    color: white;
+}
+.customHook{
+    display: flex;
+    text-align: start !important;
+}
+.blog-title{
+    background-color: rgb(106, 220, 222);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .blog-title{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .blogs{
+        width: 90%;
+    }
+    .blogTitle{
+        width: 90%;
+    }
+}

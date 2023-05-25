@@ -1,0 +1,62 @@
+.recipeCard{
+    background-image: linear-gradient(to right, #4E65FF , tomato);
+    border-radius: 7px;
+    background-color: gray;
+    padding: 25px;
+    color: white;
+    display: flex;
+}
+.majorPart{
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+.ingredients{
+    width: 48%;
+}
+.cookingMethod{
+    width: 50%;
+}
+.recipeName{
+    color: white;
+    font-size: 25px;
+}
+.recipeFooter{
+    display: flex;
+    justify-content:space-around;
+}
+.recipeImage{
+    text-align: center;
+}
+.recipeImage img{
+    width: 400px;
+    border-radius: 10px;
+}
+.rating{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 576px) {
+    .recipeCard{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .majorPart{
+        flex-direction: column;
+    }
+    .recipeFooter{
+        flex-direction: column;
+    }
+    .recipeImage img{
+        width: 90%;
+    }
+    .ingredients{
+        width: 100%;
+    }
+    .cookingMethod{
+        width: 100%;
+    }
+}

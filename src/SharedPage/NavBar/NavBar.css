@@ -1,0 +1,44 @@
+.navBar{
+    background-image: linear-gradient(to right, rgb(26, 26, 25), rgb(197, 190, 189));
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.profile_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.noVisible{
+   visibility: hidden;
+}
+.visible{
+    visibility: visible;
+    color: white;
+}
+.webName{
+    background: linear-gradient(to right, #FDB813, #FF4E50);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+@media only screen and ( max-width: 576px) {
+    .under_sm{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start;
+    }
+    .profile_image{
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+        text-align: center;
+    }
+  
+}

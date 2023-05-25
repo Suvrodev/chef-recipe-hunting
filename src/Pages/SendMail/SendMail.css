@@ -1,0 +1,42 @@
+.emailContainer{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #CE9FFC 0%, #7367F0 100%);
+
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+
+    
+}
+
+.emailContainer h1{
+    text-align: center;
+    margin: 10px;
+}
+.emailForm{
+    /* background-color: green; */
+    margin-top: 20px;
+}
+.emailForm label{
+    display: block;
+    font-weight: 700;
+}
+.emailForm input , textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .emailContainer{
+        width: 90%;
+        margin: 20px auto;
+    }
+}
