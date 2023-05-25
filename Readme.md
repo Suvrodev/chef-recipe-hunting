@@ -27,3 +27,6 @@
 ### Live Site Link ###
 https://joyful-zabaione-bb16dd.netlify.app/
 
+### Server Repository link
+https://github.com/Suvrodev/chef-recipe-hunting-server
+
